@@ -20,13 +20,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.vijayvkn09.SInfo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d1abbbc7-4bf5-4ec2-8061-101ca80ce8a7"
+      }
+    }
   }
 }
