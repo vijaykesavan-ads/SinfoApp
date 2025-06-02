@@ -2,10 +2,16 @@
   "expo": {
     "name": "SInfo",
     "slug": "SInfo",
+    "owner": "vijayvkn09",
     "version": "1.0.0",
     "orientation": "portrait",
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "entryPoint": "./index.js",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -33,6 +39,12 @@
       "eas": {
         "projectId": "d1abbbc7-4bf5-4ec2-8061-101ca80ce8a7"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d1abbbc7-4bf5-4ec2-8061-101ca80ce8a7"
     }
   }
 }
